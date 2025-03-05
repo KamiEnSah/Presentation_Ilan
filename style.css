@@ -1,72 +1,40 @@
-body {
-    background-color : #AC1DE5;
-    background-image : url("https://media.istockphoto.com/id/1162807312/fr/vectoriel/80s-synthwave-style-paysage-avec-des-montagnes-de-grille-bleue-et-le-soleil-sur-le-canyon.jpg?s=612x612&w=0&k=20&c=X1xO77vreTmBKDm34FwFBbtnKXo5jIYRSdYQArZVJ6o=");
-    background-size : cover;
-    background-repeat : no-repeat;
-    background-attachment : fixed;
+body{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    margin: 20px;
 }
 
-.container {
-    background-color: red;
-    color: white;
-    text-align : center;
-}
 
-#container_id {
+h1{
     text-align: center;
 }
 
-.container h1 {
-    background-color: #AC1DE5;
-    border : solid 2px white;
-    padding-bottom: 30px;
-}
-
-.box_trop_cool img:hover {
-    filter: grayscale(100%);
-}
-
-.box_trop_cool img {
-    height: 500px;
-    width: 500px;
-    border-radius: 50px;
-    object-fit: cover;
-    float: left;
-    transition: filter 0.5s;
-
-}
-
-
-
-.box_trop_cool {
+.navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    flex-direction : row;
-    margin-top: 50px;
-    background-image : url("https://img.goodfon.com/original/2560x1600/5/c7/planet-satellites-orbit-space-simple-background-black-backgr.jpg");
-    background-size : cover;
-    background-repeat : no-repeat;
-    background-position: center;
-    padding: 100px;
-}
-
-.box_trop_cool a {
-
-background-color: #AC1DE5;
-border : solid 2px pink; 
-padding: 10px;  
-color: white;   
-transition: all 0.5s;
-}
-
-.box_trop_cool a:hover {
+    justify-content: right;
     background-color: pink;
-    color: #AC1DE5;
+
+}
+.navbar ul{
+    list-style-type: none;
+
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
 
+.navbar a{
+    color: black;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+background-color: rgb(173, 129, 136);
+}
+.navbar li{
+    float: left;
+}
 
-
-
-        
