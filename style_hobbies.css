@@ -12,16 +12,19 @@
 body {
     padding : 0;
     margin : 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background_hobbies.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 
  }
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background_hobbies.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
     font-family: sans-serif;
+    
   
 }
 
@@ -73,4 +76,324 @@ ul li a{
 ul li a:hover{
     color: gold;
     text-decoration: underline;
+}
+
+.mangas{
+    color: white;
+    font-family: "Zelda";
+    container-type: flex;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+
+.mangas h2{
+    color: gold;
+    font-family: "ZeldaFont";
+}
+
+.MNG {
+    display: flex;
+    max-width: 100vw;
+    gap: 30px;
+    overflow:scroll;    
+}
+
+
+
+.NGE{
+    transition: .75s;
+    height: 400px;
+}
+.NGE :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.NGE:hover .center_text {
+    z-index: 10;
+}
+
+.center_text {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.NGE h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+.MHA {
+    transition: .75s;
+    height: 400px;
+}
+
+.MHA :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.MHA:hover .texte_mha{
+    z-index: 10;
+}
+
+.texte_mha {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.MHA h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+.FT {
+    transition: .75s;
+    height: 400px;
+}
+
+.FT :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.FT:hover .texte_ft{
+    z-index: 10;
+}
+
+.texte_ft {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.FT h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+.CSM {
+    transition: .75s;
+    height: 400px;
+}
+
+.CSM :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.CSM:hover .texte_csm{
+    z-index: 10;
+}
+
+.texte_csm {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.CSM h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+
+.jeux_videos{
+    color: white;
+    font-family: "Zelda";
+    container-type: flex;
+    position: absolute;
+    top: 700px;
+    left:  20px;
+}
+
+.jeux_videos h2{
+    color: gold;
+    font-family: "ZeldaFont";
+}
+
+.JV {
+    display: flex;
+    max-width: 100vw;
+    gap: 30px;
+    overflow:scroll;    
+}
+
+.Souls{
+    transition: .75s;
+    height: 400px;
+}
+.Souls :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.Souls:hover .texte_souls {
+    z-index: 10;
+}
+
+.texte_souls {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.Souls h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.Zelda{
+    transition: .75s;
+    height: 400px;
+}
+.Zelda :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.Zelda:hover .texte_zelda {
+    z-index: 10;
+}
+
+.texte_zelda {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.Zelda h4{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+.LoL{
+    transition: .75s;
+    height: 400px;
+}
+.LoL :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.LoL:hover .texte_lol {
+    z-index: 10;
+}
+
+.texte_lol {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.LoL h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.Celeste{
+    transition: .75s;
+    height: 400px;
+}
+.Celeste :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.Celeste:hover .texte_cel {
+    z-index: 10;
+}
+
+.texte_cel {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.Celeste h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
 }
