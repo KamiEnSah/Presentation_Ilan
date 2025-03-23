@@ -11,15 +11,18 @@
 body {
     padding : 0;
     margin : 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Images_Crea/background_creations.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
     
  }
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background_creations.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+    
     font-family: sans-serif;
   
 }
@@ -72,4 +75,447 @@ ul li a{
 ul li a:hover{
     color: gold;
     text-decoration: underline;
+}
+
+.dessins{
+    color: white;
+    font-family: "Zelda";
+    container-type: flex;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+
+.dessins h2{
+    color: gold;
+    font-family: "ZeldaFont";
+}
+
+.DESS {
+    display: flex;
+    max-width: 100vw;
+    gap: 30px;
+    overflow:scroll;    
+}
+
+
+
+.MINA{
+    transition: .75s;
+    height: 400px;
+}
+.MINA :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.MINA:hover .center_text {
+    z-index: 10;
+}
+
+.center_text {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.MINA h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+.KIRA {
+    transition: .75s;
+    height: 400px;
+}
+
+.KIRA :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.KIRA:hover .texte_kir {
+    z-index: 10;
+}
+
+.texte_kir {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.KIRA h3 {
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+.DENKI {
+    transition: .75s;
+    height: 400px;
+}
+
+.DENKI :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.DENKI:hover .texte_denk{
+    z-index: 10;
+}
+
+.texte_denk {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.DENKI h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+.KIRARA {
+    transition: .75s;
+    height: 400px;
+}
+
+.KIRARA :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.KIRARA:hover .texte_kirar{
+    z-index: 10;
+}
+
+.texte_kirar {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.KIRARA h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.manuelles{
+    color: white;
+    font-family: "Zelda";
+    container-type: flex;
+    position: absolute;
+    top: 700px;
+    left:  20px;
+}
+
+.manuelles h2{
+    color: gold;
+    font-family: "ZeldaFont";
+}
+
+.MANU {
+    display: flex;
+    max-width: 100vw;
+    gap: 30px;
+    overflow:scroll;    
+}
+
+.EVA01{
+    transition: .75s;
+    height: 400px;
+}
+.EVA01 :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.EVA01:hover .texte_eva {
+    z-index: 10;
+}
+
+.texte_eva {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.EVA01 h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.REI{
+    transition: .75s;
+    height: 400px;
+}
+.REI :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.REI:hover .texte_reip {
+    z-index: 10;
+}
+
+.texte_reip {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.REI h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+.PENPEN{
+    transition: .75s;
+    height: 400px;
+}
+.PENPEN :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.PENPEN:hover .texte_pen {
+    z-index: 10;
+}
+
+.texte_pen {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.PENPEN h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+.LEGO{
+    transition: .75s;
+    height: 400px;
+}
+.LEGO :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.LEGO:hover .texte_leg {
+    z-index: 10;
+}
+
+.texte_leg {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.LEGO h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+.projets{
+    color: white;
+    font-family: "Zelda";
+    container-type: flex;
+    position: absolute;
+    left: 20px;
+    top: 1250px;
+}
+
+.projets h2{
+    color: gold;
+    font-family: "ZeldaFont";
+}
+
+.PRJ {
+    display: flex;
+    max-width: 100vw;
+    gap: 30px;
+    overflow:scroll;    
+}
+
+
+
+.NIM{
+    transition: .75s;
+    height: 400px;
+}
+.NIM :hover{
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.NIM:hover .center_text {
+    z-index: 10;
+}
+
+.center_text {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.NIM h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+.PENDU {
+    transition: .75s;
+    height: 400px;
+}
+
+.PENDU :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.PENDU:hover .texte_pend {
+    z-index: 10;
+}
+
+.texte_pend {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.PENDU h3 {
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+
+.FILTRES {
+    transition: .75s;
+    height: 400px;
+}
+
+.FILTRES :hover {
+    filter: brightness(20%);
+    transition-duration: .75s;
+}
+
+.FILTRES:hover .texte_filt{
+    z-index: 10;
+}
+
+.texte_filt {
+    position: relative;
+    top: -90%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.FILTRES h3{
+    position: relative;
+    top: -60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
 }
